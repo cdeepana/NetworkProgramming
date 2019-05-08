@@ -11,6 +11,11 @@ public class PrtStream {
 //            PrintStream out = new PrintStream(new File("example8.txt"));
 
             int var1 = 10;
+
+            System.out.println("The value is: " +var1);
+
+            out.println("THE VALUE is: " +var1);
+            out.close();
         }
         catch (FileNotFoundException e)
         {
