@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class ClientThread extends Thread{
+ class ClientThread extends Thread{
 
         private Socket socket = null;
 
